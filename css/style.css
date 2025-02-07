@@ -9622,7 +9622,7 @@ figure {
 
 .call-btn {
   position: fixed;
-  top: 45%;
+  top: 25%;
   z-index: 99;
   transform: translateY(-50%);
 }
