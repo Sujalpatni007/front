@@ -242,24 +242,12 @@
                  <script>
                     (function() {
                         emailjs.init("6QSPrMJGEYxK-y6D7");
-                    
+                
                         document.getElementById('submit-btn').addEventListener('click', function(event) {
                             event.preventDefault(); // Prevents form from redirecting
                             
-                            // Add validation check
-                            const name = document.getElementById('name').value.trim();
-                            const companyName = document.getElementById('company-name').value.trim();
-                            const phone = document.getElementById('phone').value.trim();
-                            const email = document.getElementById('email').value.trim();
-                            const message = document.getElementById('message').value.trim();
-                            
-                            if (!name || !companyName || !phone || !email || !message) {
-                                alert('Fill the information');
-                                return false;
-                            }
-                            
                             var templateParams = {
-                                to_email: 'prathapshetty1996@gmail.com',
+                                to_email: 'sujalpatni1008@gmail.com',
                                 from_name: document.getElementById('name').value,
                                 from_company: document.getElementById('company-name').value,
                                 from_phone: document.getElementById('phone').value,
@@ -278,7 +266,7 @@
                                 });
                         }); 
                     })();
-                    </script>
+                </script>
                     
                     
                     
